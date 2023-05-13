@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   extends: [
-    'standard-vue-ts'
+    // 'standard-vue-ts'
   ],
   globals: {
     __isBrowser__: 'readonly',

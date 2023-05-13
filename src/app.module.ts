@@ -1,8 +1,7 @@
 import { Module } from '@nestjs/common'
-import { DetailModule } from './modules/detail-page/detail.module'
 import { indexModule } from './modules/index-page/index.module'
 
 @Module({
-  imports: [DetailModule, indexModule]
+  imports: [indexModule]
 })
 export class AppModule {}
